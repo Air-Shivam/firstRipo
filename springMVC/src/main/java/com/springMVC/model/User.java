@@ -34,6 +34,7 @@ public class User {
 	public int getUser_id() {
 		return user_id;
 	}
+	
 	public void setUser_id(int user_id) {
 		this.user_id = user_id;
 	}
@@ -56,7 +57,10 @@ public class User {
 		this.password = password;
 	}
 
-	
+	public void msg(){
+		System.out.println("Hello");
+	}
+		
 	
 
 }
